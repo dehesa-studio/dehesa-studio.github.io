@@ -175,7 +175,7 @@
             font-family:'Cormorant Garamond',serif;
             font-size:2rem; font-weight:400; margin-bottom:0.75rem; color:var(--cream);
         }
-        .app-desc { font-size:0.8rem; color:var(--muted); line-height:1.8; margin-bottom:2rem; }
+        .app-desc { font-size:0.8rem; color:var(--muted); line-height:1.8; margin-bottom:2rem; word-break: break-word; overflow-wrap: break-word; }
         .app-stack { display:flex; gap:0.4rem; flex-wrap:wrap; margin-bottom:1.5rem; }
         .app-stack span {
             font-size:0.6rem; color:var(--muted);
@@ -334,7 +334,7 @@
     <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3rem);font-weight:300;max-width:20ch;line-height:1.2;">
         Apps that solve real problems<br>for real people
     </h2>
-    <div class="apps-grid">
+   <div class="apps-grid">
     <a href="https://tubesum.dehesa.dev" target="_blank" class="app-card">
         <span class="app-tag">Live · Free to try</span>
         <h3 class="app-name">TubeSum</h3>
@@ -355,8 +355,7 @@
         <h3 class="app-name">Reforesta</h3>
         <p class="app-desc">
             A web app for guerrilla reforesters in the Canary Islands. Browse 3,500+ native species extracted from
-            <a href="https://www.biodiversidadcanarias.es/" target="_blank" style="color: var(--canopy); text-decoration: underline;">BIOCAN, CENTINELA, & EXOS databases</a>
-            and identify plants via PlantNet, log plantings with GPS/photos, and see community pins on a live map.
+            BIOCAN, CENTINELA, & EXOS databases and identify plants via PlantNet, log plantings with GPS/photos,    and see community pins on a live map.
             Built for real‑world field work – not just dashboards.
         </p>
         <div class="app-stack">
